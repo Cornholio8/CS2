@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  @media (max-width:995px){
+    overflow-x: hidden;
+  }
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
