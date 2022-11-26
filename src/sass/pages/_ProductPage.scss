@@ -3,6 +3,15 @@
 .products {
   font-family: $font-header;
   
+  h1::after {
+    display: block;
+      content: "";
+      margin: 26px auto 90px;
+      max-width: 500px;
+      height: 5px;
+      background-color: $main-color;
+  }
+
   h2 {
     font-weight: bold;
     font-size: 32px;
@@ -31,6 +40,9 @@
   
   .row {
     display: flex;
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
     @media (max-width: 599px){
       .col-6 {
         width: 100%;
@@ -50,7 +62,7 @@
   }
   
   .stamp {
-    margin: 0 50px 50px 0;
+    margin: 0 50px 0px 0;
     visibility: hidden;
   }
 }
@@ -83,7 +95,7 @@
     object-fit: cover;
     width: 100%;
     height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 2px 14px 20px 4px rgb(0 0 0 / 40%);
   }
   
   p{
