@@ -1,1 +1,1 @@
-# CS2
+https://cs2-1.cornholio8.repl.co/
