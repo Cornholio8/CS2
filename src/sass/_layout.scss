@@ -225,6 +225,15 @@ footer {
       display: flex;
       justify-content: center;
     }
+
+   .row .popular{
+    max-width: 200px;
+   }
+
+   .row .parameters{
+    max-width: 200px;
+    font-size: smaller;
+   }
   }
 
   .products .product-description {
